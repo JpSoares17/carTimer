@@ -2,10 +2,10 @@ from ultralytics import YOLO
 import cv2
 
 # Carregue o modelo treinado
-model = YOLO("./models/carTimer.pt")
+model = YOLO("./models/carTimer2.pt")
 
 # Abra o vídeo
-video_path = "./static/videos/parking_1920_1080.mp4"
+video_path = "./static/videos/prefeitura_move_car.mp4"
 cap = cv2.VideoCapture(video_path)
 
 # Configure o vídeo de saída (opcional)

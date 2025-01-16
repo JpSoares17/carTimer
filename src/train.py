@@ -13,6 +13,6 @@ else:
 # Load a model
 model = YOLO("yolo11n.pt")  # load a pretrained model (recommended for training)
 
-settings["datasets_dir"] = "./carTimer-1"
+settings["datasets_dir"] = "./carTimer-2"
 # Train the model
-results = model.train(data="./carTimer-1/data.yaml", epochs=100, imgsz=640)
+results = model.train(data="./carTimer-2/data.yaml", epochs=100, imgsz=640)
